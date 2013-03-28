@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="JFile">
+
+	<select id="sampleDAO.selectSampleListTotCnt_S" parameterClass="java.util.Map" resultClass="java.util.HashMap">
+		SELECT COUNT(*) totcnt
+		FROM SAMPLE
+		WHERE 1=1
+	</select>
+</sqlMap>
