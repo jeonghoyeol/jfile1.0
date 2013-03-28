@@ -30,7 +30,7 @@ public class GlovalVariables {
 	public static final String FTP_USER_ID = "ftp.user.id";
 
 	public static final String FTP_USER_PASSWORD = "ftp.user.password";
-	
+		
 	public static final class Error {
 		public static final int FILE_LENGTH_ERROR = 8888;
 		public static final int SYSTEM_ERROR = 9999;
